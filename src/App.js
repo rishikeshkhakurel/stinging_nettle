@@ -5,14 +5,29 @@ import Header from "./component/header";
 import Intro from "./component/intro";
 
 function App() {
+  const onScroll = (activeContainer) => {
+    console.log(activeContainer)
+    const element = document.getElementById(activeContainer);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  }
   return (
     <>
-    <GlobalStyle/>
+      <GlobalStyle />
       <div className="App">
-        <Header />
-        <Intro/>
-        <Faq/>
-        <Contact/>
+        <Header handleMenuClick={onScroll} />
+        <div id="home">
+          <Intro />
+        </div>
+        <div id="faq">
+          <Faq />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
       </div>
     </>
   );

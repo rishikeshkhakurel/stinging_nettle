@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../assets/logo.png';
 import styled from 'styled-components';
 import { FaUserCircle } from "react-icons/fa";
@@ -50,16 +50,22 @@ z-index: 1000;
 
 `
 
-function Header() {
+
+function Header({handleMenuClick}) {
+    const [activeMenu,setActiveMenu]=useState("home");
+    const handleMenu = (name) => {
+        setActiveMenu(name);
+        handleMenuClick(name);
+    };
     return (
         <HeaderWrapper>
             <div id="header">
                 <img src={Logo} alt='Logo' />
                 <div id="menu">
-                    <p className='selected'>Home</p>
-                    <p>Our Product</p>
-                    <p>FAQ</p>
-                    <p>Contact US</p>
+                    <p className={activeMenu==="home"&&'selected'} onClick={() => handleMenu('home')}>Home</p>
+                    <p className={activeMenu==="product"&&'selected'} onClick={() => handleMenu('product')}>Our Product</p>
+                    <p className={activeMenu==="faq"&&'selected'} onClick={() => handleMenu('faq')}>FAQ</p>
+                    <p className={activeMenu==="contact"&&'selected'} onClick={() => handleMenu('contact')}>Contact US</p>
                 </div>
                 <FaUserCircle className='icon' />
             </div>
