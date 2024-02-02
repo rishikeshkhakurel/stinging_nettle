@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 const ContactWrapper = styled.div`
@@ -56,7 +56,7 @@ function Contact() {
         <ContactWrapper>
             <p id='heading'>Contact Us</p>
             <div id="contact-details">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14127.826405811606!2d85.315442!3d27.7186262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e71103585d%3A0xc68400611ed4b8ce!2sNational%20College%20of%20Food%20Science%20and%20Technology%20NIST!5e0!3m2!1sen!2snp!4v1706895316273!5m2!1sen!2snp" width="800" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14127.826405811606!2d85.315442!3d27.7186262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e71103585d%3A0xc68400611ed4b8ce!2sNational%20College%20of%20Food%20Science%20and%20Technology%20NIST!5e0!3m2!1sen!2snp!4v1706895316273!5m2!1sen!2snp" title='map' width="800" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div id="contact-form">
                     <form>
                         <input type="text" name="FullName" placeholder='ENTER YOUR NAME*' />
