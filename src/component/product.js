@@ -51,31 +51,31 @@ function Product() {
             <p id='heading'>Our Product</p>
             <div className='product-list'>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
@@ -83,31 +83,31 @@ function Product() {
             </div>
             <div className='product-list'>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
                 </div>
                 <div className='product'>
-                    <div><img src={Photo} alt="photo" /></div>
+                    <div><img src={Photo} alt="product" /></div>
                     <p><strong>Stinging Nettle</strong></p>
                     <p className="price"><strong>Rs.1000</strong></p>
                     <div className='rating'><FcRating /><FcRating /><FcRating /><FcRating /><FcRating /></div>
