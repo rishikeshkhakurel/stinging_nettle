@@ -5,7 +5,6 @@ const ContactWrapper = styled.div`
 width: 90%;
 margin: auto;
 margin-bottom: 6vh;
-height:70vh;
 #heading{
     margin-top: 6vh;
     text-align:center;

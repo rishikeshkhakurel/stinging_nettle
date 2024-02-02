@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const FaqWrapper = styled.div`
 width: 90%;
 margin: auto;
-height:70vh;
+height:40vh;
 #heading{
     text-align:center;
     font-size: 32px;

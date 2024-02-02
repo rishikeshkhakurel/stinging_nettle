@@ -42,14 +42,14 @@ height:100vh;
     }
 
 `
-function Intro() {
+function Intro({handleMenuClick}) {
     return (
         <IntroWrapper>
             <div id="intro-left">
                 <p id="slogan"><strong>Healthier</strong> and <strong>Happier</strong> Life with Stinging Nettle</p>
                 <p id="main-text">Boost your Immune with our product. 100% genuine product with world wide delivery</p>
                 <div>
-                    <button>Shop Now</button>
+                    <button onClick={()=>handleMenuClick('product')}>Shop Now</button>
                 </div>
             </div>
             <div id="intro-right">

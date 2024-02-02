@@ -11,6 +11,9 @@ const GlobalStyle = createGlobalStyle`
     p{
         margin: 0;
     }
+    .container{
+        padding-top: 60px;
+    }
 `
 
 export default GlobalStyle;

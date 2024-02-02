@@ -3,6 +3,7 @@ import Contact from "./component/contact";
 import Faq from "./component/faq";
 import Header from "./component/header";
 import Intro from "./component/intro";
+import Product from "./component/product";
 
 function App() {
   const onScroll = (activeContainer) => {
@@ -20,12 +21,15 @@ function App() {
       <div className="App">
         <Header handleMenuClick={onScroll} />
         <div id="home">
-          <Intro />
+          <Intro handleMenuClick={onScroll} />
         </div>
-        <div id="faq">
+        <div id="product" className="container">
+          <Product />
+        </div>
+        <div id="faq" className="container">
           <Faq />
         </div>
-        <div id="contact">
+        <div id="contact" className="container">
           <Contact />
         </div>
       </div>
